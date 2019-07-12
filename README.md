@@ -1,1 +1,1 @@
-# licnaprezentacija prvi pokusaj jos nedovrsenog projekta
+# licna prezentacija zavrsen prvi projekat - HTML&CSS(Bootstrap) u okviru IT obuke
