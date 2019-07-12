@@ -20,9 +20,8 @@
     
 <!-- POCETAK NAVIGATION BARA -->
 
-<nav class="navbar bg-info navbar-expand-md navbar-light fixed-top">
+<nav class="navbar bg-info navbar-expand-md navbar-light fixed-top container">
     
-
     <!-- za male ekrane se automatski kreira kolapsirajuci navbar -->
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapseid">
         <span class="navbar-toggler-icon"></span>
@@ -31,6 +30,9 @@
     <div class="collapse navbar-collapse" id="collapseid">
 
         <ul class="navbar-nav">
+            <li class="nav-item">
+                <a class="nav-link" href="index.html">Početna</a>
+            </li>
             <li class="nav-item">
                 <a class="nav-link" href="omeni.html">O meni</a>
             </li>
@@ -47,12 +49,38 @@
 
 <!-- KRAJ NAVIGATION BARA -->
 
-<main>
-    
-</main>
-    
+<!-- POCETAK MAIN -->
+<div id="main" class="container">
+        <h1 style="margin-top: 60px;" class="text-center" >Projekti</h1>
 
-<footer class="bg-info text-center fixed-bottom">
+        <div class="row" style="padding-top: 80px;">
+
+                <div class="col-lg-4 mb-4 d-inline-block">
+                        <img class="card-img-top img-thumbnail" src="img/js_igra.png" alt="">
+                        <div class="card-main">
+                                <a href="https://focused-beaver-39aa9e.netlify.com/" class="card-title text-center"> <h3>Prvi projekat</h3></a>
+                        </div>
+                </div>
+        
+                <div class="col-lg-4 mb-4 d-inline-block">
+                        <img class="card-img-top img-thumbnail" src="img/pcelinjak.png" alt="">
+                            <div class="card-main">
+                                <a href="#" class="card-title text-center"> <h3>Drugi projekat</h3></a>
+                            </div>
+                </div>
+             
+                <div class="col-lg-4 mb-4 d-inline-block">
+                        <img class="card-img-top img-thumbnail" src="img/vrganj.png" alt="">
+                            <div class="card-main">
+                                <a href="#" class="card-title text-center"> <h3>Treći projekat</h3></a>
+                            </div>
+                </div>
+        </div> <!-- ovde je kraj od row -->
+        
+</div> <!-- KRAJ MAIN -->
+    
+<br>
+<footer class="bg-info text-center fixed-bottom container">
           <p> Copyright  April 2019 Ivica Tončev</p>
        
 </footer>

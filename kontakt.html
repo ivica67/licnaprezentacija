@@ -20,7 +20,7 @@
     
 <!-- POCETAK NAVIGATION BARA -->
 
-<nav class="navbar bg-info navbar-expand-md navbar-light fixed-top">
+<nav class="navbar bg-info navbar-expand-md navbar-light fixed-top container">
     
 
     <!-- za male ekrane se automatski kreira kolapsirajuci navbar -->
@@ -31,6 +31,9 @@
     <div class="collapse navbar-collapse" id="collapseid">
 
         <ul class="navbar-nav">
+            <li class="nav-item">
+                <a class="nav-link" href="index.html">Početna</a>
+            </li>
             <li class="nav-item">
                 <a class="nav-link" href="omeni.html">O meni</a>
             </li>
@@ -47,12 +50,40 @@
 
 <!-- KRAJ NAVIGATION BARA -->
 
-<main>
+<!-- Pocetak formulara -->
+<div id="bg">
+    <div class="container p-5" style="margin-top:60px">
+        <form>
+            <p class="font-weight-bolder">Za dodatne informacije popunite formular</p>
+            <div class="form-group">
+                <label for="ime">Ime: *</label>
+                <input type="text" class="form-control" id="ime" placeholder="Vaše ime" required>
+            </div>
+            <div class="form-group">
+                <label for="prezime">Prezime: *</label>
+                <input type="text" class="form-control" id="prezime" placeholder="Vaše prezime" required>
+            </div>
+            <div class="form-group">
+                <label for="adresa">Adresa:</label>
+                <input type="text" class="form-control" id="adresa" placeholder="Mesto, ulica i broj">
+            </div>
+            <div class="form-group">
+                <label for="email">E-mail adresa: *</label>
+                <input type="email" class="form-control" id="email" placeholder="ivica.toncev@gmail.com" required>
+            </div>
+            <div class="form-group">
+                <textarea class="form-control" name="pitanje" id="pitanje" rows="4"
+                    placeholder="Kratak opis ..."></textarea>
+            </div>
+            
+            <button type="submit" class="btn btn-primary mt-3">Pošalji</button>
+            <button type="reset" class="btn btn-danger mt-3">Obriši</button>
+        </form>
+    </div>
+</div>
     
-</main>
-    
-
-<footer class="bg-info text-center fixed-bottom">
+<br>
+<footer class="bg-info text-center fixed-bottom container">
           <p> Copyright  April 2019 Ivica Tončev</p>
        
 </footer>
